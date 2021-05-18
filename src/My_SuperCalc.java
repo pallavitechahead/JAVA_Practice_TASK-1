@@ -14,7 +14,8 @@ public class My_SuperCalc  extends Extra_Properties {
 		
 		O.mul1();
 		O.Mul2(1, 2);
-		O.mul3();
+		O.mul(9, 8);
+		O.mul(9, 9);
 		
 		
 			

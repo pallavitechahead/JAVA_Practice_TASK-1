@@ -1,18 +1,15 @@
 
 public class Extra_Properties {
 
-	public void mul3() {
+	public int mul (char k, int l) {
+		int m= (k*l);
+		System.out.println("calls from parents class"  +   m);
+		return m;
 		
-		int a = 3;
-		int b= 1;
-		int c= (a* b);
-		System.out.println("calls from parents class"   +   c);
+		}
 		
-		
-	}
 	
-	
-	public int mul4 (int a, int b) {
+	public int mul (int a, int b) {
 	int c= (a*b);
 	System.out.println("calls from parents class"  +   c);
 	return c;
